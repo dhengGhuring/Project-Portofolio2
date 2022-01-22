@@ -154,6 +154,12 @@ a:hover {
     flex-direction: column;
     justify-content: center;
   }
+  #hire .hire-me h1 {
+    font-size: 1.3em;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
   #hire .hire-me .btn {
     margin-left: 0;
   }
