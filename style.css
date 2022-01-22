@@ -63,7 +63,7 @@ a {
   transition: 0.3s;
 }
 a:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 /*---------------
@@ -116,6 +116,30 @@ a:hover {
 }
 
 /*----------------------
+  HIRE ME
+-----------------------*/
+#hire .hire-me {
+  margin-top: -100px;
+  background-color: rgb(53, 53, 53);
+}
+#hire .hire-me h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#hire .hire-me .tombol {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: chocolate;
+}
+
+#hire .hire-me .btn {
+  margin-left: 465px;
+}
+
+/*----------------------
   RESPONSIVE BREAKPOINTS
 -----------------------*/
 @media only screen and (max-width: 500px) {
@@ -124,5 +148,16 @@ a:hover {
   }
   #home .first-text {
     margin-top: 30px;
+  }
+  #hire .hire-me {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hire .hire-me .btn {
+    margin-left: 0;
+  }
+  #hire .hire-me .tombol {
+    margin-left: 30px;
   }
 }
