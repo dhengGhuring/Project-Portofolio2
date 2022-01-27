@@ -140,6 +140,26 @@ a:hover {
 }
 
 /*----------------------
+  SERVICE
+-----------------------*/
+#service h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+#service .feature .card {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+}
+#service .feature .card img {
+  margin-left: 3.8em;
+  margin-bottom: 1em;
+  border-radius: 50%;
+  height: 160px;
+  width: 165px;
+}
+/*----------------------
   RESPONSIVE BREAKPOINTS
 -----------------------*/
 @media only screen and (max-width: 500px) {
@@ -165,5 +185,12 @@ a:hover {
   }
   #hire .hire-me .tombol {
     margin-left: 30px;
+  }
+  #service .feature .card img {
+    margin-left: 5.8em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+    height: 160px;
+    width: 165px;
   }
 }
