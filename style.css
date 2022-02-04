@@ -164,9 +164,27 @@ a:hover {
   height: 300px;
 }
 #service .container-fluid .single-item {
-  background-color: #fff;
-  height: 200px;
+  position: relative;
+  top: -60px;
+
+  height: 410px;
 }
+#service .container-fluid .single-item .customer img {
+  margin-left: 100px;
+}
+#service .container-fluid .single-item .customer .text-customer {
+  display: ;
+}
+.single-item .customer .text-customer p {
+  font-size: 16px;
+}
+.single-item .customer .text-customer h5 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #fff;
+}
+
 /*----------------------
   RESPONSIVE BREAKPOINTS
 -----------------------*/
