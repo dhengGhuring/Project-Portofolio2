@@ -160,6 +160,7 @@ a:hover {
   width: 171px;
 }
 #service .container-fluid {
+  margin-top: 110px;
   background-color: rgb(39, 39, 39);
   height: 300px;
 }
@@ -167,13 +168,18 @@ a:hover {
   position: relative;
   top: -60px;
 
-  height: 410px;
+  height: 380px;
 }
 #service .container-fluid .single-item .customer img {
-  margin-left: 100px;
+  margin-left: 70px;
+}
+#service .container-fluid .single-item .customer .gambar {
+  float: left;
 }
 #service .container-fluid .single-item .customer .text-customer {
-  display: ;
+  margin-top: 127px;
+
+  float: left;
 }
 .single-item .customer .text-customer p {
   font-size: 16px;
