@@ -200,13 +200,24 @@ a:hover {
   font-size: 20px;
 }
 
+footer {
+  background-color: rgb(24, 24, 24);
+}
 footer h1 {
   color: #fff;
   font-weight: 600;
+  margin-bottom: 0;
+}
+footer p {
+  margin-bottom: 25px;
 }
 footer a {
   color: #fff;
   text-decoration-style: none;
+}
+footer a:hover {
+  color: #fff;
+  opacity: 0.7s;
 }
 /*----------------------
   RESPONSIVE BREAKPOINTS
