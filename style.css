@@ -234,4 +234,10 @@ a:hover {
     height: 156px;
     width: 171px;
   }
+  #tools {
+    margin-top: 250px;
+  }
+  #tools img {
+    width: 15%;
+  }
 }
