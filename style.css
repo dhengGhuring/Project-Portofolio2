@@ -200,6 +200,14 @@ a:hover {
   font-size: 20px;
 }
 
+footer h1 {
+  color: #fff;
+  font-weight: 600;
+}
+footer a {
+  color: #fff;
+  text-decoration-style: none;
+}
 /*----------------------
   RESPONSIVE BREAKPOINTS
 -----------------------*/
