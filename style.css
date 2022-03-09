@@ -202,10 +202,16 @@ a:hover {
 
 footer {
   background-color: rgb(24, 24, 24);
-  background-image: url('img/Abstract.png');
+  /* background-image: url('img/Abstract.png');
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: contain; */
+}
+footer img {
+  margin-left: 420px;
+  display: block;
+  width: 50%;
+  opacity: 0.5;
 }
 footer h1 {
   color: #fff;
